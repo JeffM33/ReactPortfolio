@@ -5,5 +5,10 @@ $(document).ready(function(){
         } else {
             $('.navbar').removeClass('stickey');
         }
-    })
+    });
+
+    //toggle menu/navbar script
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass('active');
+    });
 });
