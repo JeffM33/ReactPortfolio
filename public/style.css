@@ -18,8 +18,13 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: purple;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    transition: all 0.3 ease;
+}
+
+.navbar.sticky{
+    padding: 15px 0;
+    background: purple;
 }
 
 .navbar .max-width{
