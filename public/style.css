@@ -52,9 +52,25 @@
     transition: color 0.3s ease;
 }
 
-
 .navbar .menu li a hover{
     color: teal;
+}
+
+/* img styling */
+img {
+    width: 250px;
+    height: 250px;
+    border: 3px solid gray;
+    margin: 10px;
+    padding: 10px;
+    max-width: min-content;
+}
+
+.img-glow:hover{
+    box-shadow: inset 0px 0px 8px
+    rgb(0, 0, 0), 0 0 15px
+    rgb(0, 0, 0);
+                         
 }
 
 /* Menu btn styling */
@@ -83,13 +99,13 @@
     font-size: 27px;
 }
 
-.home .home-content .text-2{
+.text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -12px;
 }
 
-.home .home-content .text-3{
+.text-3{
     font-size: 40px;
     margin: 5px 0;
 }
@@ -99,6 +115,24 @@
     margin: 5px 0;
     color: teal;
 }
+
+/* styling for about section */
+.about{
+    background-color: cornflowerblue;
+}
+/* styling for projects section */
+.projects {
+    background-color: cadetblue;
+}
+
+/* styling contact section under footer  */
+footer {
+    text-align: center;
+    background-color: dodgerblue;
+    color: black;
+}
+
+
 
 /* responsive media query start */
 @media (max-width: 990px) {
